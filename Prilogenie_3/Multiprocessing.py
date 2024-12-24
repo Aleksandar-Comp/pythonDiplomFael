@@ -1,41 +1,62 @@
-import multiprocessing  # Импортируем модуль multiprocessing для многопроцессорного выполнения
-import time  # Импортируем модуль time для измерения времени выполнения
-import tracemalloc  # Импортируем модуль tracemalloc для профилирования использования памяти
-import psutil  # Импортируем модуль psutil для получения информации о системе и процессе
-
-
+"""# Импортируем модуль multiprocessing для многопроцессорного выполнения
+# Импортируем модуль time для измерения времени выполнения
+# Импортируем модуль tracemalloc для профилирования использования памяти
+# Импортируем модуль psutil для получения информации о системе и процессе
 # Функция для обработки задачи
-def process_task(i):
-    time.sleep(0.1)  # Блокирующая задержка на 0.1 секунды
-
-
+# Блокирующая задержка на 0.1 секунды
 # Основная функция для выполнения задач с использованием multiprocessing
-def multiprocessing_main():
-    processes = []  # Список для хранения процессов
-
-    for i in range(1000):  # Создаем и запускаем 1000 процессов
-        process = multiprocessing.Process(target=process_task, args=(i,))  # Создаем процесс для выполнения задачи
-        processes.append(process)  # Добавляем процесс в список
-        process.start()  # Запускаем процесс
-
-    for process in processes:  # Ждем завершения всех процессов
-        process.join()  # Блокируем выполнение до завершения текущего процесса
-
-
+# Список для хранения процессов
+# Создаем и запускаем 1000 процессов
+# Создаем процесс для выполнения задачи
+# Добавляем процесс в список
+# Запускаем процесс
+# Ждем завершения всех процессов
+# Блокируем выполнение до завершения текущего процесса
 # Функция для профилирования многопроцессорного выполнения
+# Начинаем профилирование использования памяти
+# Фиксируем время начала выполнения
+# Запускаем основную функцию с multiprocessing
+# Фиксируем время завершения выполнения
+# Получаем информацию о текущем процессе
+# Получаем использование памяти в МБ
+# Выводим время выполнения
+# Выводим использование памяти
+# Запускаем функцию профилирования для multipr"""
+import multiprocessing
+import time
+import tracemalloc
+import psutil
+
+
+def process_task(n):
+    time.sleep(0.1)
+
+
+def multiprocessing_main():
+    processes = []
+
+    for i in range(1000):
+        process = multiprocessing.Process(target=process_task, args=(i,))
+        processes.append(process)
+        process.start()
+
+    for process in processes:
+        process.join()
+
+
 def profile_multiprocessing_parallelism():
-    tracemalloc.start()  # Начинаем профилирование использования памяти
+    tracemalloc.start()
 
-    start_time = time.time()  # Фиксируем время начала выполнения
-    multiprocessing_main()  # Запускаем основную функцию с multiprocessing
-    end_time = time.time()  # Фиксируем время завершения выполнения
+    start_time = time.time()
+    multiprocessing_main()
+    end_time = time.time()
 
-    process = psutil.Process()  # Получаем информацию о текущем процессе
-    mem_usage = process.memory_info().rss / (1024 * 1024)  # Получаем использование памяти в МБ
+    process = psutil.Process()
+    mem_usage = process.memory_info().rss / (1024 * 1024)
 
-    print("Multiprocessing parallelism time:", end_time - start_time)  # Выводим время выполнения
-    print(f"Memory usage: {mem_usage:.2f} MB")  # Выводим использование памяти
+    print("Multiprocessing parallelism time:", end_time - start_time)
+    print(f"Memory usage: {mem_usage:.2f} MB")
 
 
 if __name__ == '__main__':
-    profile_multiprocessing_parallelism()  # Запускаем функцию профилирования для multipr
+    profile_multiprocessing_parallelism()

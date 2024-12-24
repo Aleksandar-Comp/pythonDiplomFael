@@ -1,10 +1,13 @@
+"""# Функция для вычисления числа Фибоначчи
+# Функция для выполнения вычислений в процессе
+# Основная функция
+# Запуск профилирования памяти"""
 import multiprocessing
 import time
 import tracemalloc
 import psutil
 
 
-# Функция для вычисления числа Фибоначчи
 def fibonacci(n):
     if n <= 1:
         return n
@@ -12,13 +15,11 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-# Функция для выполнения вычислений в процессе
 def worker(n, queue):
     result = fibonacci(n)
     queue.put(result)
 
 
-# Основная функция
 def multiprocessing_main():
     numbers = [30, 32, 34]
     queue = multiprocessing.Queue()
@@ -37,7 +38,6 @@ def multiprocessing_main():
 
 
 def profile_multiprocessing_computation():
-    # Запуск профилирования памяти
     tracemalloc.start()
 
     start_time = time.time()

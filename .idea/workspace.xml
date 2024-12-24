@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33b134d1-de8b-4617-9677-e77c614e6ef4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="33b134d1-de8b-4617-9677-e77c614e6ef4" name="Changes" comment="Диплом">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diplom.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Diplom.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prilogenie_1/Asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prilogenie_1/Asyncio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prilogenie_1/Multiprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prilogenie_1/Multiprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prilogenie_1/Threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prilogenie_1/Threading.py" afterDir="false" />
@@ -17,8 +15,6 @@
       <change beforePath="$PROJECT_DIR$/Prilogenie_3/Asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prilogenie_3/Asyncio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prilogenie_3/Multiprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prilogenie_3/Multiprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prilogenie_3/Threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prilogenie_3/Threading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +71,8 @@
       <recent name="C:\Users\admin\DjangoProjects\pythonDiplomFael\photo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Threading">
-    <configuration name="Asyncio (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Threading (1)">
+    <configuration name="Asyncio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonDiplomFael" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prilogenie_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prilogenie_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prilogenie_2/Asyncio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prilogenie_3/Asyncio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prilogenie_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prilogenie_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prilogenie_1/Multiprocessing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prilogenie_3/Multiprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prilogenie_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prilogenie_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prilogenie_1/Threading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prilogenie_3/Threading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Threading" />
-        <item itemvalue="Python.Multiprocessing" />
-        <item itemvalue="Python.Asyncio (2)" />
         <item itemvalue="Python.Threading (1)" />
         <item itemvalue="Python.Multiprocessing (1)" />
+        <item itemvalue="Python.Asyncio" />
+        <item itemvalue="Python.Threading" />
+        <item itemvalue="Python.Multiprocessing" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +208,19 @@
       <option name="presentableId" value="Default" />
       <updated>1735033130488</updated>
     </task>
+    <task id="LOCAL-00001" summary="Диплом">
+      <option name="closed" value="true" />
+      <created>1735062239280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735062239280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Диплом" />
+    <option name="LAST_COMMIT_MESSAGE" value="Диплом" />
   </component>
 </project>
