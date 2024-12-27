@@ -34,7 +34,7 @@ def process_task(n):
 def threaded_main():
     threads = []
 
-    for i in range(1000):
+    for i in range(100):
         thread = threading.Thread(target=process_task, args=(i,))
         threads.append(thread)
         thread.start()

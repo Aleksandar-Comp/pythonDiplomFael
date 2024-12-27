@@ -35,7 +35,7 @@ def process_task(n):
 def multiprocessing_main():
     processes = []
 
-    for i in range(1000):
+    for i in range(100):
         process = multiprocessing.Process(target=process_task, args=(i,))
         processes.append(process)
         process.start()
